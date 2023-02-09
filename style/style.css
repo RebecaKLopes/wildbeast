@@ -1,7 +1,27 @@
+body, p, h1, ul, li, blockquote{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
-    
+    font-family: "Vollkorn", Georgia, serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 img{
-    max-width: 50px;
+    max-width: 100px;
+}
+
+/* Grid geral*/
+
+.estrutura{
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 1fr 1fr;
 }
