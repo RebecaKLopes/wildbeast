@@ -23,6 +23,8 @@ img{
     max-width: 100%;
 }
 
+
+
 /* Grid geral*/
 
 .estrutura{
@@ -34,6 +36,8 @@ img{
         "footer    footer     footer"
     ;
 }
+
+
 
 /* Atribuindo os templates as classes html*/
 
@@ -76,6 +80,8 @@ img{
     margin-left: 30px;
 }
 
+
+
 /*sidenav*/
 
 .sidenav{
@@ -99,6 +105,7 @@ img{
 .sidenav li a:hover{
     background: #B07DFB;
 }
+
 
 
 /*cont*/
@@ -126,6 +133,33 @@ img{
     align-self: end;
 }
 
+/*estilos cont*/
+
+p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    color: rgba(0 0, 0, 7);
+
+}
+
+.informacoes p + p{
+   margin-top: 30px;
+}
+
+/*titulo*/
+
+.titulo{
+    color: #B07DFB;
+ }
+
+ .titulo h1{
+    font-size: 3.75em;
+    line-height: 1;
+    font-weight: 700;
+ }
+
+
 /*anuncios*/
 .anuncios{
     grid-area: anuncios;
@@ -136,6 +170,8 @@ img{
     padding: 30px;
     grid-gap: 30px;
 }
+
+
 
 
 /*footer*/
