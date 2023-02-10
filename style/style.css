@@ -112,8 +112,19 @@ img{
     grid-gap: 30px;
 }
 
+/*pega de ponta a ponta no conteúdo*/
+.col-wide{
+    grid-column: 1 / -1;
+}
 
+.imagem-1{
+    grid-row: span 2;
+    align-self: end;
+}
 
+.imagem-2{
+    align-self: end;
+}
 
 /*anuncios*/
 .anuncios{
