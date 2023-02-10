@@ -104,7 +104,14 @@ img{
 /*cont*/
 .cont{
     grid-area: cont;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
 }
+
 
 
 
@@ -118,8 +125,6 @@ img{
     padding: 30px;
     grid-gap: 30px;
 }
-
-
 
 
 /*footer*/
