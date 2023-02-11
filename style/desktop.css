@@ -260,3 +260,11 @@ p{
    text-align: center;
    padding: 30px;
 }
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    color: #652eb7;
+}
