@@ -1,6 +1,6 @@
+@charset "utf-8";
 
 /* Reset geral*/
-
 body, p, h1, ul, li, blockquote{
     padding: 0px;
     margin: 0px;
@@ -20,13 +20,11 @@ a{
 
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 
-
 /* Grid geral*/
-
 .estrutura{
     display: grid;
     grid-template-columns: minmax(160px, 1fr) 3fr 300px;
@@ -42,7 +40,6 @@ img{
 /* Atribuindo os templates as classes html*/
 
 /*header*/
-
 .header{
    grid-area: header;
    background: linear-gradient(135deg, #8844ee, #B07DFB);
@@ -82,9 +79,7 @@ img{
 }
 
 
-
 /*sidenav*/
-
 .sidenav{
     grid-area: sidenav;
     background: #fafbfc;
@@ -106,7 +101,6 @@ img{
 .sidenav li a:hover{
     background: #B07DFB;
 }
-
 
 
 /*cont*/
@@ -149,9 +143,7 @@ p{
 }
 
 
-
 /*titulo*/
-
 .titulo{
     color: #B07DFB;
  }
@@ -168,9 +160,7 @@ p{
 }
 
 
-
 /*caracteristicas*/
-
 .caracteristicas{
     display: flex;
     align-items: flex-start;
@@ -247,7 +237,6 @@ p{
 
 
 /*anuncios*/
-
 .anuncios{
     grid-area: anuncios;
     background: #fafbfc;
@@ -256,8 +245,8 @@ p{
     border-radius: 5px ;
     padding: 30px;
     grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-
 
 
 /*footer*/
